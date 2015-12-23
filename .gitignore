@@ -1,0 +1,5 @@
+/node_modules
+src/sass/bootstrap/
+src/sass/partials/
+/.idea
+readme
