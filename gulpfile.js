@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 var paths = {
     src: {
         scripts: 'src/scripts/*.js',
-        scss: 'src/sass/*.scss',
+        scss: 'src/sass/**/*.scss',
         images: 'src/images/*',
         html: 'src/*.html'
     },
@@ -90,6 +90,7 @@ gulp.task('watch', function () {
     gulp.watch(paths.src.scss, ['styles']);
     gulp.watch(paths.src.scripts, ['lint']);
     gulp.watch(paths.src.images, ['images']);
+    gulp.watch(paths.src.html,['html']);
 });
 
 gulp.watch([

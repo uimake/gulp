@@ -1,14 +1,10 @@
 
 @import "bootstrap";
 @import "partials/reset";
-@import "partials/nav";
-@import "partials/banner";
-@import "partials/btn";
-@import "partials/news";
-@import "partials/service";
-@import "partials/project";
-@import "partials/footer";
-@import "partials/contact";
-@import "partials/portfolio/portfolio";
-@import "partials/details/details";
-@import "partials/resume/resume";
+body{
+  background-color: #CCCCCC;
+  color: $color1;
+  a{
+    color: $color5;
+  }
+}
